@@ -18,7 +18,7 @@ public class DBConnection {
     // ── Oracle 11g connection details ──────────────────────────────────────
     private static final String URL      = "jdbc:oracle:thin:@127.0.0.1:1521:XE";
     private static final String USER     = "system";
-    private static final String PASSWORD = "newpassword";   // <-- change this
+    private static final String PASSWORD = "your_password";   // <-- change this
     // ───────────────────────────────────────────────────────────────────────
 
     private static Connection connection = null;
